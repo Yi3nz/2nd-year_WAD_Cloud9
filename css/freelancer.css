@@ -180,7 +180,7 @@ section {
 
 section h2 {
     margin: 10px;
-    padding-top: 55px; /*When padding is changed, this must be changed too in order for ScrollSpy to work*/
+    padding-top: 80px; /*When padding is changed, this must be changed too in order for ScrollSpy to work*/
     font-size: 3em;
 }
 
@@ -223,7 +223,7 @@ xml_right{
     }
 
     section.first {
-        padding-top: 40px;
+        padding-top: 30px;
     }
 }
 
