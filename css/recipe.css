@@ -1,0 +1,89 @@
+.recipe-starter-filter {
+	background: url(../img/recipe/Starter_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}.recipe-main-filter {
+	background: url(../img/recipe/Main_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.recipe-desserts-filter {
+	background: url(../img/recipe/Desserts_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.recipe-filter-wrapper {
+	background-color: rgba(248, 248, 190, 0.74);
+	position: relative;
+}
+
+.section-header {
+	padding-left: 10px;
+	padding-top: 35px;
+}
+
+.recipe-title {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+/**/
+.recipe_container{
+    width:100%;
+    height:350px;
+    color:black;
+    position: relative;
+	background-color: rgba(248, 248, 190, 0.74);    
+}
+
+.left_container{
+    position: relative;
+    float:left;
+    width:50%;
+    height:100%;
+    color:#8d642c;
+    padding-top:-10px;
+    padding-left:50px;    
+}
+
+.left_container p{
+    position: relative;    
+    padding-right:25px;
+    padding-left:220px;  
+}
+
+.stater_right_container{
+    position: relative;
+    float:right;
+    width:50%;
+    height:100%; 
+    background: url(../img/recipe/Starter_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.main_right_container{
+    position: relative;
+    float:right;
+    width:50%;
+    height:100%; 
+    background: url(../img/recipe/Main_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.desserts_right_container{
+    position: relative;
+    float:right;
+    width:50%;
+    height:100%; 
+    background: url(../img/recipe/Desserts_filterPic.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="recipe.xsl" type="text/xsl" ?>
+<CATALOG>
+	<!--Starter-->
+	<STARTER>
+		<RECIPE>
+			<TYPE>Starter Dish</TYPE>
+			<NAME>Chili Sweet Potato Wedges</NAME>
+			<TIMING>Short</TIMING>
+			<DIFFICULTLY>★☆☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Starter Dish</TYPE>
+			<NAME>Prawn and Asparagus Salad</NAME>
+			<TIMING>Short</TIMING>
+			<DIFFICULTLY>★☆☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Starter Dish</TYPE>
+			<NAME>Tomato Tarts</NAME>
+			<TIMING>Medium</TIMING>
+			<DIFFICULTLY>★★☆☆☆</DIFFICULTLY>
+		</RECIPE>
+	</STARTER>
+	<!--Main-->
+	<MAIN>
+		<RECIPE>
+			<TYPE>Main Dish</TYPE>
+			<NAME>Pork with ginger sauce</NAME>
+			<TIMING>Medium</TIMING>
+			<DIFFICULTLY>★★☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Main Dish</TYPE>
+			<NAME>Fried minced pork with pickled vabbage</NAME>
+			<TIMING>Medium</TIMING>
+			<DIFFICULTLY>★★☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Main Dish</TYPE>
+			<NAME>Fish Balls Radish in Curry</NAME>
+			<TIMING>Long</TIMING>
+			<DIFFICULTLY>★★★☆☆</DIFFICULTLY>
+		</RECIPE>
+	</MAIN>	
+	<!--Dessert-->
+	<DESSERT>
+		<RECIPE>
+			<TYPE>Dessert Dish</TYPE>
+			<NAME>Green Tea mochi ice-cream</NAME>
+			<TIMING>Medium</TIMING>
+			<DIFFICULTLY>★★☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Dessert Dish</TYPE>
+			<NAME>Halo-halo</NAME>
+			<TIMING>Short</TIMING>
+			<DIFFICULTLY>★★☆☆☆</DIFFICULTLY>
+		</RECIPE>
+		<RECIPE>
+			<TYPE>Dessert Dish</TYPE>
+			<NAME>Hong Kong Style Egg Tarts</NAME>
+			<TIMING>Medium</TIMING>
+			<DIFFICULTLY>★★★☆☆</DIFFICULTLY>
+		</RECIPE>
+	</DESSERT>	
+</CATALOG>
