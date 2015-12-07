@@ -68,11 +68,11 @@ hr.star-light:after {
 }
 
 hr.star-primary {
-    border-color: #2c3e50;
+    border-color: #8d642c;
 }
 
 hr.star-primary:after {
-    color: #2c3e50;
+    color: #8d642c;
     background-color: #fff;
 }
 
@@ -112,7 +112,7 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
+        padding-top: 150px;
         padding-bottom: 100px;
     }
 
@@ -125,10 +125,16 @@ header .intro-text .skills {
     }
 }
 
+@media(min-width:768px) {
+    section .left_container .skills {
+        font-size: 1.60em;
+    }
+}
+
 /*Change height of Top Navigation bar*/
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -180,7 +186,7 @@ section {
 
 section h2 {
     margin: 10px;
-    padding-top: 80px; /*When padding is changed, this must be changed too in order for ScrollSpy to work*/
+    padding-top: 70px; /*When padding is changed, this must be changed too in order for ScrollSpy to work*/
     font-size: 3em;
 }
 
