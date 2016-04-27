@@ -61,7 +61,7 @@ $(function() {
         },
     });
     
-    $('myImage').ajax.form({
+    $('myImage').ajaxForm({
         beforeSend:function(){},
         uploadProgress:function(){},
         success:function(){},

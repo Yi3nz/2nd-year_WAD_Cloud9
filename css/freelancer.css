@@ -110,6 +110,7 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+/*Distance between the navbar and logo*/
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;

@@ -8,16 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    
     <!--Recipe-->
-    <link rel="stylesheet" type="text/css" href="css/recipe.css" />    
+    <link rel="stylesheet" type="text/css" href="css/recipe.css" />   
+    
     <!--Recipe_Hover-->
     <link rel="stylesheet" type="text/css" href="css/hoverStyle_common.css" />
     <link rel="stylesheet" type="text/css" href="css/hoverStyle.css" />
     <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css' /> 
-    <!--Recipe_Hover_Popup-->
-	<link rel="stylesheet" type="text/css" href="css/default.css" />
-	<link rel="stylesheet" type="text/css" href="css/recipe_popup.css" />
-	<script src="js/modernizr.custom.js"></script>    
+    
 	<!--rss-->
 	<link rel="alternate" type="application/rss+xml" title="RSS" href="https://feedity.com/your/feed.rss">
 
@@ -111,6 +110,7 @@
     <!--Starter-->
     <!--Starter introduction-->
     <section id="recipes">
+        
         <div class="row">
             <div class="recipe_container">
                     <div class="left_container">
@@ -154,35 +154,17 @@
                             <div class="mask">
                                 <h2>酸甜土豆角</h2>
                                 <p>Chili Sweet Potato Wedges</p>
-                                <!--<a href="#" class="info">Read recipe</a>-->
-                                
-<a class="button" href="#openModal info">Read recipe</a>
-
-<div id="openModal" class="modalbg">
-  <div class="dialog">
-    <a href="#close" title="Close" class="close">X</a>
-  	<h2>Holy Crap!!!</h2>
-		<p>You freakin' did it!</p>
-		<p>You opened up the freakin' modal window! Now close it, ya dingus.</p>
-    <p class="fineprint">Based on the article "Creating a modal window with HTML5 & CSS3" at h.</p>
-    <p class="fineprint">p.s. Sorry for calling you a dingus earlier.</p>
-	</div>
-</div>
-                                
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
                 </div>
+<script>
+function alertRecipe() {
+alert("The recipe is not available yet.");
+}
+</script>
 
-
-
-
-
-                
-                
-                
-                
-                
                 <!--Image 2-->
                 <div class="col-sm-4 recipes-item">
                     <a href="#recipesModal1" class="recipes-link" data-toggle="modal">
@@ -197,13 +179,13 @@
                             <div class="mask">
                                 <h2>明虾芦笋沙拉</h2>
                                 <p>Prawn & Asparagus Salad</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
                 </div>
                 
-                <!--Image 2-->
+                <!--Image 3-->
                 <div class="col-sm-4 recipes-item">
                     <a href="#recipesModal1" class="recipes-link" data-toggle="modal">
                         <div class="caption">
@@ -217,15 +199,14 @@
                             <div class="mask">
                                 <h2>西紅柿撻</h2>
                                 <p>Tomato Tarts</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
-    </section>
-        
+		
     <!--Main-->
     <!--Main introduction-->
     <section id="recipes">
@@ -272,7 +253,7 @@
                             <div class="mask">
                                 <h2>生姜焼き</h2>
                                 <p>Pork with ginger sauce</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -291,7 +272,7 @@
                             <div class="mask">
                                 <h2>咖哩魚蛋</h2>
                                 <p>Fried minced pork with pickled vabbage</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -310,7 +291,7 @@
                             <div class="mask">
                                 <h2>酸菜辣肉碎</h2>
                                 <p>Fish Balls & Radish in Curry</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -366,7 +347,7 @@
                             <div class="mask">
                                 <h2>綠茶雪見だいふく</h2>
                                 <p>Green Tea mochi ice-cream</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -385,7 +366,7 @@
                             <div class="mask">
                                 <h2>Halo-halo</h2>
                                 <p>Mixed together</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -404,7 +385,7 @@
                             <div class="mask">
                                 <h2>港式蛋撻</h2>
                                 <p>Hong Kong Style Egg Tarts</p>
-                                <a href="#" class="info">Read recipe</a>
+                                <a href="" class="info" onclick="alertRecipe()">Read recipe</a>
                             </div>
                         </div>
                     </a>
@@ -442,7 +423,7 @@
                         
                         x=xmlDoc.getElementsByTagName("RECIPE");
                         i=0;
-                            /bookstore/book[position()<3]
+
                         function displayCD()
                         {
                         type=(x[i].getElementsByTagName("TYPE")[0].childNodes[0].nodeValue);
@@ -481,28 +462,11 @@
                     <div class="xml_right">
                         <p>Here is the catalogue of Asian Cuisine. Simply click on the button to view the difficulty and time duration of each recipe on our webpage!</p>
                     </div>   
+                    <!--rss feed-->
+                    <a href="http://www.rssdog.com/index.htm?url=http%3A%2F%2Fwww.webrss.com%2Fcreatefeed.php%3Ffeedid%3D46424&mode=html&showonly=&maxitems=0&showdescs=1&desctrim=0&descmax=0&tabwidth=100%25&showdate=1&xmlbtn=1&linktarget=_blank&bordercol=%23d4d0c8&headbgcol=%23999999&headtxtcol=%23ffffff&titlebgcol=%23f1eded&titletxtcol=%23000000&itembgcol=%23ffffff&itemtxtcol=%23000000&ctl=0"><img src="img/rss-button.gif" alt="[Valid RSS]" title="Validate my RSS feed" /></a>
                 </div>    
         </div>
     </section>    
-
-    <!--<section class="success" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Aboutut</h2>
-                    <hr class="star-light">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
-                </div>
-                <div class="col-lg-4">
-                    <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-                </div>
-            </div>
-        </div>
-    </section>-->
 
     <!-- Submit Section -->
     <section id="submit">
@@ -540,8 +504,8 @@
                             </div>
                         </div>
                         <br>
-                        <form action="upload.php" method="post" enctype="multipart/form-data">
-                        <input type="file" name="file" id="myImage">
+                        <form id="myImage" action="upload.php" method="post" enctype="multipart/form-data">
+                        <input type="file" name="file">
                         <br>
                         <div id="success"></div>
                         <div class="row">
@@ -556,10 +520,7 @@
         </div>
     </section>
     
-    <!-- Register Section -->
     
-
-
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
@@ -629,16 +590,6 @@
     
     <!--Hover JavaScript-->
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-    
-    <!--Hover_Popup Javascript-->
-	<script src="js/classie.js"></script>
-	<script src="js/modalEffects.js"></script>
-	<script>
-		var polyfilter_scriptpath = '/js/';
-	</script>
-	<script src="js/cssParser.js"></script>
-	<script src="js/css-filters-polyfill.js"></script>   
-
     
 </body>
 
